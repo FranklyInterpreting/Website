@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    float:left;
+}
+
+.edu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.title-date-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    
+}
+.cert-title {
+    font-weight: bold;
+    text-align:left;
+    /* Consider setting a fixed width if necessary */
+    width: 30%;
+}
+
+.institution {
+    font-style: italic ;
+    text-align: center; /* Aligns text to the center */
+    width: 50%; /* Adjust as needed */
+}
+
+.dates {
+    font-style: italic;
+    text-align: right;
+    width: 20%; /* Adjust as needed */
+}
+.job-container{
+    padding:0px;
+}
+.company{
+    align-items:start;
+    padding:0px;
+    margin-bottom: 2px;
+}
+h3{
+    padding:0px;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1.5rem;
+}
+
