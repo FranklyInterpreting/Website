@@ -1,83 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Frankly Interpreting</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        header {
-            background: #232F3E;;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .container {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        footer {
-            background: #232F3E;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        @media (max-width: 768px) {
-            nav ul li {
-                display: block;
-                margin: 10px 0;
-            }
-        }
-    </style>
+    <title>Frankly Interpreting</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Frankly Interpreting LLC</h1>
-        <nav>
-            <ul>
-                <li><a href="./homepage.html">Home</a></li>
-                <li><a href="./index.html">Resume</a></li>
-                
-               
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <h2>Welcome to Frankly Interpreting!</h2>
-        <p>At Frankly Interpreting, we pride ourselves on delivering exceptional American Sign Language (ASL) interpreting services. 
-            As a sole proprietorship, we bring personalized attention and dedication to every client, ensuring effective and inclusive 
-            communication for the Deaf and hard-of-hearing community.
-        </p>
-        <p>
-            Thank you for visiting our website. We look forward to serving you and building a more connected world together.
-        </p>
-        <p>
-            Warm regards,<br>
-            Danny Frank
-    </div>
-    <footer>
-        <p>&copy; 2024 Frankly Interpreting</p>
-    </footer>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Frankly Interpreting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Frankly Interpreting</h1>
+            <p>Providing top-tier ASL interpreting services and cloud-based solutions for diverse audiences.</p>
+            <a href="./resume.html" class="btn btn-primary btn-lg">View Resume</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Danny Frank</h2>
+            <p>Customer-centric Engagement Manager with a passion for operational excellence and innovation in tech and ASL interpreting services.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">What I Offer</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card skills-card">
+                        <div class="card-body">
+                            <h5 class="card-title">ASL Interpreting</h5>
+                            <p class="card-text">Providing professional American Sign Language interpretation for diverse industries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skills-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Solutions</h5>
+                            <p class="card-text">Specializing in AWS cloud services and scalable infrastructure design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skills-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Program Management</h5>
+                            <p class="card-text">Driving success with innovative strategies and efficient program management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you! Let's work together to achieve your goals.</p>
+            <a href="mailto:frankly.dan@gmail.com" class="btn btn-secondary">Email Me</a>
+        </div>
+    </section>
+
+    <section class="certifications py-5 text-center">
+        <h2>AWS Certifications</h2>
+        <p>Demonstrating my cloud expertise and commitment to delivering innovative solutions.</p>
+        <div class="certification-badges">
+            <img src="./Images/CCP_AWS.png" alt="AWS Certified Cloud Practioner" class="cert-badge">
+            <img src="./Images/AWS_AIP(1).png" alt="AWS Certified AI Practioner" class="cert-badge">
+            <img src="./Images/SAA_AWS.png" alt="AWS Solutions Architect Associate" class="cert-badge">
+        </div>
+    </section>
+
+    <!-- Footer -->
+        <footer class="text-center py-3">
+            <p>&copy; <span id="current-year"></span> Daniel Frank. All rights reserved.</p>
+        </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<script>
+    // Automatically update the footer year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 </html>
