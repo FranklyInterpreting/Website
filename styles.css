@@ -1,4 +1,17 @@
 /* Global Styles */
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -66,6 +79,7 @@ body {
 
 /* Footer */
 .footer {
+    flex-shrink: 0;
     background-color: #232F3E;
     color: white;
     font-size: 0.9rem;
