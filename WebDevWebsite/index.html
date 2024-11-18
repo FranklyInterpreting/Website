@@ -108,4 +108,14 @@
             </ul>
             <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
         </footer>
-   
+</body>
+<script>
+    //When someone clicks the email button, alert the user that this option in not live at this time.
+    document.addEventListener("DOMContentLoaded", function(){
+    const emailButton = document.querySelector('#contact .btn-secondary');
+    emailButton.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevents any default behavior
+        alert("Email functionality is not available at this time. Please check back later.");
+    });
+});
+</script> 
