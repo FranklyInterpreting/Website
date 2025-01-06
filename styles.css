@@ -1,86 +1,185 @@
-/* Global Styles */
-html, body {
-    height: 100%;
-    overflow-x: hidden;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
-}
-
-
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif;
+    color: #16191f;
+    background-color: #ffffff;
 }
 
-/* Navbar */
+/* Navigation Styles */
+.navbar {
+    background-color: #232f3e !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
+    color: #ffffff !important;
 }
 
-/* Hero Section (Home Page) */
+.nav-link {
+    color: #d5dbdb !important;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* Hero Section */
 .hero {
-    background-color: #232F3E;
-    
-    color: white;
-    padding: 100px 0;
+    background-color: #232f3e;
+    background-image: linear-gradient(#232f3e, #1b2532);
+    color: #ffffff;
+    padding: 80px 0;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
-.hero p {
-    font-size: 1.2rem;
+/* Services Section */
+#services {
+    background-color: #fafafa;
+}
+
+.card {
+    border: 1px solid #d5dbdb;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px 0 rgba(0, 28, 36, 0.1), 0 1px 3px 1px rgba(0, 28, 36, 0.1);
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px 0 rgba(0, 28, 36, 0.15), 0 3px 6px 2px rgba(0, 28, 36, 0.15);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    color: #16191f;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card-subtitle {
+    color: #545b64;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.card-text {
+    color: #545b64;
+    margin-bottom: 1rem;
+}
+
+.card ul {
+    padding-left: 1.4rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.card ul li {
+    color: #545b64;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+/* Button Styles */
+.btn {
+    font-weight: 500;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #ec7211;
+    border-color: #ec7211;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #eb5f07;
+    border-color: #eb5f07;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background-color: #232f3e;
+    border-color: #232f3e;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #1b2532;
+    border-color: #1b2532;
+}
+
+/* Certifications Section */
+.certifications {
+    background-color: #ffffff;
+    padding: 4rem 0;
+}
+
+.certification-badges {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .cert-badge {
-    width: 150px;
-    margin: 10px;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.2s ease;
 }
 
-/* Resume Section */
-.resume-section h1,
-.resume-section h2 {
-    color: #232F3E;
+.cert-badge:hover {
+    transform: scale(1.05);
 }
 
-.experience-item h4,
-.education-item h4 {
-    font-weight: bold;
-}
-
-.skills-list {
-    list-style-type: square;
-    margin: 0;
-    padding: 0;
-}
-
-.skills-list li {
-    margin-bottom: 5px;
-}
-
-/* Contact Links */
-.contact-link {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.contact-link:hover {
-    text-decoration: underline;
+/* Contact Section */
+#contact {
+    background-color: #fafafa;
 }
 
 /* Footer */
 .footer {
-    flex-shrink: 0;
-    background-color: #232F3E;
-    color: white;
-    font-size: 0.9rem;
+    background-color: #232f3e;
+    color: #d5dbdb;
+    padding: 1rem 0;
+}
+
+/* Section Headers */
+h2 {
+    color: #16191f;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 0;
+    }
+    
+    .certification-badges {
+        gap: 1rem;
+    }
+    
+    .cert-badge {
+        max-width: 120px;
+    }
 }
