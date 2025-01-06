@@ -87,6 +87,13 @@ main {
     justify-content: space-between;
     padding: 1.5rem;
 }
+body {
+    padding-top: 60px;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
 
 /* Profile Section */
 .profile-img {
