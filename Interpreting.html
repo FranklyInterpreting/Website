@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frankly Interpreting</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Frankly Interpreting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Interpreting Samples</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Technology</h5>
+                            <p class="card-text">
+                                Amazon Web Services (AWS) | Developer Day 2025
+                            </p>
+                            <!-- Responsive video wrapper -->
+                            <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 1rem;">
+                                <iframe 
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                    src="https://www.youtube.com/embed/BSHZNveDE28?si=Mkh0Cxkf0_HBl1Ye&start=630" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-center mb-4">Contracted Agencies</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ASLIS</h5>
+                            <p class="card-text">
+                                American Sign Language Interpreting Services
+                            </p>
+                            <!-- Image -->
+                            <img src="./Images/Logo_ASLIS_WhiteOnDarkNoDrop.png" alt="Image of company logo" width="100" height="50" class="mx-auto d-block"/>                        
+                        </div>
+                        <a href="https://www.aslis.com" class="btn btn-primary">More information</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">SLA</h5>
+                            <p class="card-text">
+                                The Sign Language Agency
+                            </p>
+                            <!-- Image -->
+                            <div class="placeholder-logo mx-auto d-block text-center" style="width: 100px; height: 50px; background-color: rgba(185, 37, 54, .9); color: white; line-height: 50px; font-weight: bold;">
+                                SLA
+                            </div>
+                        </div>
+                        <a href="https://signlanguageagency.com/" class="btn btn-primary">More information</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-3 text-center">
+        <p>&copy; <span id="current-year"></span> Frankly Interpreting. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Automatically update the footer year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
