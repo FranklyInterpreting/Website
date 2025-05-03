@@ -154,6 +154,27 @@ function Home() {
             <p className="lead text-center mb-5">Professional interpretation for business, healthcare, and educational settings</p>
           </div>
           
+          {/* RID Certification Banner */}
+          <div className="rid-certification-banner mb-5">
+            <div className="row align-items-center">
+              <div className="col-md-3 text-center">
+                <a href="https://rid.org" target="_blank" rel="noopener noreferrer">
+                  <img src="/images/RID_Cert.png" alt="Registry of Interpreters for the Deaf" className="rid-logo" />
+                </a>
+              </div>
+              <div className="col-md-9">
+                <h4>Nationally Certified Interpreter</h4>
+                <p>
+                  I hold a National Interpreter Certification (NIC) from the Registry of Interpreters for the Deaf (RID), 
+                  the leading organization establishing standards for quality interpretation and transliteration services.
+                </p>
+                <a href="https://rid.org/about-rid/about-interpreting/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary">
+                  Learn About RID Certification
+                </a>
+              </div>
+            </div>
+          </div>
+          
           {/* Agency Banner */}
           <div className="agency-banner mb-5">
             <div className="row align-items-center">
@@ -276,27 +297,6 @@ function Home() {
                     </iframe>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* RID Certification Banner */}
-          <div className="rid-certification-banner mt-5">
-            <div className="row align-items-center">
-              <div className="col-md-3 text-center">
-                <a href="https://rid.org" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/RID_Cert.png" alt="Registry of Interpreters for the Deaf" className="rid-logo" />
-                </a>
-              </div>
-              <div className="col-md-9">
-                <h4>Nationally Certified Interpreter</h4>
-                <p>
-                  I hold a National Interpreter Certification (NIC) from the Registry of Interpreters for the Deaf (RID), 
-                  the leading organization establishing standards for quality interpretation and transliteration services.
-                </p>
-                <a href="https://rid.org/about-rid/about-interpreting/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary">
-                  Learn About RID Certification
-                </a>
               </div>
             </div>
           </div>
