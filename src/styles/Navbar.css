@@ -1,0 +1,20 @@
+/* Navigation Styles */
+.navbar {
+  background-color: #232f3e !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+.nav-link {
+  color: #d5dbdb !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}

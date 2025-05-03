@@ -1,0 +1,307 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--aws-navy) 0%, var(--aws-navy-dark) 100%);
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero .lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+/* Dual Career Path Cards */
+.career-path-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.career-path-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.career-path-card.tech {
+  border-top: 5px solid var(--aws-orange);
+}
+
+.career-path-card.interpreting {
+  border-top: 5px solid var(--aws-navy);
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 2rem;
+}
+
+.career-path-card.tech .card-icon {
+  background-color: rgba(255, 153, 0, 0.1);
+  color: var(--aws-orange);
+}
+
+.career-path-card.interpreting .card-icon {
+  background-color: rgba(35, 47, 62, 0.1);
+  color: var(--aws-navy);
+}
+
+.career-path-card h3 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.card-actions {
+  margin-top: 1.5rem;
+}
+
+/* Section Headers */
+.section-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+/* Portfolio Card */
+.portfolio-card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 153, 0, 0.1);
+  color: var(--aws-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.tech-list li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.tech-tag {
+  background-color: rgba(255, 153, 0, 0.1);
+  color: var(--aws-orange-dark);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+/* Service Cards */
+.service-card {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  background-color: var(--aws-navy);
+  color: white;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.service-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.service-content h4 {
+  color: var(--aws-navy);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.service-features {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.service-features li {
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.service-features li:before {
+  content: "•";
+  color: var(--aws-orange);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Agency Banner */
+.agency-banner {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.agency-banner h3 {
+  color: var(--aws-navy);
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+  padding-left: 15px;
+}
+
+.agency-banner h3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 24px;
+  width: 4px;
+  background-color: var(--aws-orange);
+}
+
+.agency-logos-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.agency-logos-banner .agency-logo-item {
+  margin: 0;
+  width: auto;
+  text-align: center;
+}
+
+.agency-logos-banner .agency-logo-item img {
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.agency-logos-banner .agency-logo-item .placeholder-logo {
+  width: 80px;
+  height: 40px;
+  margin: 0 auto 5px;
+}
+
+/* AI Collaboration Banner */
+.ai-collab-banner {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-top: 3px solid #16a2b8;
+}
+
+.ai-collab-banner h4 {
+  color: var(--aws-navy);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.ai-collab-banner p {
+  margin-bottom: 0;
+  color: #495057;
+}
+
+.ai-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(22, 162, 184, 0.1);
+  color: #16a2b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin: 0 auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .lead {
+    font-size: 1.2rem;
+  }
+  
+  .service-card {
+    flex-direction: column;
+  }
+  
+  .service-icon {
+    width: 100%;
+    height: 80px;
+  }
+  
+  .agency-logos-banner {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .agency-logos-banner .agency-logo-item {
+    margin: 0 1rem 1rem;
+  }
+  
+  .ai-collab-banner .ai-icon {
+    margin-bottom: 1rem;
+  }
+}
