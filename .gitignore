@@ -48,3 +48,6 @@ config.local.js
 **/*password*
 **/*key*
 !**/public-key*
+
+# development notes
+development-notes.md
