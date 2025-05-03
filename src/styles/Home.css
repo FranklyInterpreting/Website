@@ -225,6 +225,17 @@
   text-align: center;
 }
 
+.agency-logos-banner .agency-logo-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.agency-logos-banner .agency-logo-item a:hover {
+  transform: translateY(-3px);
+}
+
 .agency-logos-banner .agency-logo-item img {
   height: 40px;
   margin-bottom: 5px;
@@ -233,7 +244,14 @@
 .agency-logos-banner .agency-logo-item .placeholder-logo {
   width: 80px;
   height: 40px;
+  background-color: rgba(185, 37, 54, .9);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
   margin: 0 auto 5px;
+  border-radius: 4px;
 }
 
 /* AI Collaboration Banner */
@@ -267,6 +285,36 @@
   justify-content: center;
   font-size: 1.8rem;
   margin: 0 auto;
+}
+
+/* RID Certification Banner */
+.rid-certification-banner {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.rid-certification-banner h4 {
+  color: var(--aws-navy);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.rid-certification-banner p {
+  margin-bottom: 1rem;
+  color: #495057;
+}
+
+.rid-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+  transition: transform 0.2s ease;
+}
+
+.rid-logo:hover {
+  transform: scale(1.05);
 }
 
 /* Responsive Adjustments */
@@ -303,5 +351,9 @@
   
   .ai-collab-banner .ai-icon {
     margin-bottom: 1rem;
+  }
+  
+  .rid-certification-banner .col-md-3 {
+    margin-bottom: 1.5rem;
   }
 }

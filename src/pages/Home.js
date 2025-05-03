@@ -163,12 +163,16 @@ function Home() {
               <div className="col-md-9">
                 <div className="agency-logos-banner">
                   <div className="agency-logo-item">
-                    <img src="/images/Logo_ASLIS_WhiteOnDarkNoDrop.png" alt="ASLIS - American Sign Language Interpreting Services" />
-                    <p>ASLIS</p>
+                    <a href="https://aslis.com" target="_blank" rel="noopener noreferrer">
+                      <img src="/images/Logo_ASLIS_WhiteOnDarkNoDrop.png" alt="ASLIS - American Sign Language Interpreting Services" />
+                      <p>ASLIS</p>
+                    </a>
                   </div>
                   <div className="agency-logo-item">
-                    <div className="placeholder-logo">SLA</div>
-                    <p>Sign Language Agency</p>
+                    <a href="https://signlanguageagency.com" target="_blank" rel="noopener noreferrer">
+                      <div className="placeholder-logo">SLA</div>
+                      <p>Sign Language Agency</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -272,6 +276,27 @@ function Home() {
                     </iframe>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* RID Certification Banner */}
+          <div className="rid-certification-banner mt-5">
+            <div className="row align-items-center">
+              <div className="col-md-3 text-center">
+                <a href="https://rid.org" target="_blank" rel="noopener noreferrer">
+                  <img src="/images/RID_Cert.png" alt="Registry of Interpreters for the Deaf" className="rid-logo" />
+                </a>
+              </div>
+              <div className="col-md-9">
+                <h4>Nationally Certified Interpreter</h4>
+                <p>
+                  I hold a National Interpreter Certification (NIC) from the Registry of Interpreters for the Deaf (RID), 
+                  the leading organization establishing standards for quality interpretation and transliteration services.
+                </p>
+                <a href="https://rid.org/about-rid/about-interpreting/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary">
+                  Learn About RID Certification
+                </a>
               </div>
             </div>
           </div>
