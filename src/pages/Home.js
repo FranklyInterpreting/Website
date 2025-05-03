@@ -103,7 +103,7 @@ function Home() {
                       <div className="progress-bar-container">
                         <div className="progress-bar" style={{width: "65%"}}></div>
                       </div>
-                      <span className="progress-text">65% Complete</span>
+                      <span className="progress-text">75% Complete</span>
                     </div>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ function Home() {
                   I hold a National Interpreter Certification (NIC) from the Registry of Interpreters for the Deaf (RID), 
                   the leading organization establishing standards for quality interpretation and transliteration services.
                 </p>
-                <a href="https://rid.org/about-rid/about-interpreting/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary">
+                <a href="https://rid.org" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary">
                   Learn About RID Certification
                 </a>
               </div>
