@@ -1,7 +1,7 @@
-# Frankly Interpreting Website Migration
+# Frankly Interpreting Website Migration with Amazon Q
 
 ## Project Overview
-This project involves migrating the Frankly Interpreting website from traditional HTML/CSS to a modern React application. The migration preserves all content and styling while adding the benefits of component-based architecture.
+This project involved migrating the Frankly Interpreting website from traditional HTML/CSS to a modern React application with AWS-inspired styling. The migration was completed with assistance from Amazon Q, demonstrating effective use of AI tools in development workflows.
 
 ## Migration Process
 
@@ -11,22 +11,21 @@ This project involves migrating the Frankly Interpreting website from traditiona
 - Configured React Router for navigation
 
 ### 2. Content Migration
-- Converted HTML pages to React components:
-  - Home page
-  - Resume page
-  - Interpreting services page
-- Extracted reusable elements into components:
-  - Navbar
-  - Footer
+- Converted HTML pages to React components
+- Extracted reusable elements into components
+- Implemented AWS-inspired styling
 
-### 3. Styling
-- Migrated CSS to component-specific stylesheets
-- Maintained the original design and responsive behavior
-- Ensured Bootstrap integration
+### 3. Enhanced Features
+- Created a dual-focus layout highlighting both ASL interpreting and cloud technology skills
+- Added AWS certification showcase
+- Implemented responsive design for all devices
+- Added accessibility features
 
-### 4. Asset Management
-- Moved images and other static assets to the public directory
-- Updated references to use the correct paths in React
+### 4. AI Collaboration
+- Used Amazon Q to assist with React component development
+- Implemented AWS-inspired styling with AI guidance
+- Enhanced UX based on AI recommendations
+- Demonstrated effective use of AI tools in development workflow
 
 ## Benefits of the React Migration
 - Improved code organization and maintainability
@@ -34,6 +33,7 @@ This project involves migrating the Frankly Interpreting website from traditiona
 - More efficient updates and changes
 - Better state management
 - Enhanced performance through virtual DOM
+- Modern, responsive design
 
 ## Next Steps
 - Consider implementing a contact form with form validation
