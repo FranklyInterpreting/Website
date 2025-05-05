@@ -6,7 +6,7 @@ function CertificationShowcase() {
     {
       id: 1,
       title: "AWS Certified Solutions Architect Associate",
-      issueDate: "2023",
+      issueDate: "2024",
       description: "Validates the ability to design and implement distributed systems on AWS.",
       badgeUrl: "/images/SAA_AWS.png",
       badgeAlt: "AWS Certified Solutions Architect Associate Badge"
@@ -14,7 +14,7 @@ function CertificationShowcase() {
     {
       id: 2,
       title: "AWS Certified Cloud Practitioner",
-      issueDate: "2023",
+      issueDate: "2021",
       description: "Validates foundational understanding of AWS Cloud services, architecture, and economics.",
       badgeUrl: "/images/CCP_AWS.png",
       badgeAlt: "AWS Certified Cloud Practitioner Badge"
@@ -22,7 +22,7 @@ function CertificationShowcase() {
     {
       id: 3,
       title: "AWS AI Practitioner",
-      issueDate: "2023",
+      issueDate: "2024",
       description: "Demonstrates knowledge of AI/ML concepts and AWS AI services.",
       badgeUrl: "/images/AWS_AIP(1).png",
       badgeAlt: "AWS AI Practitioner Badge"
