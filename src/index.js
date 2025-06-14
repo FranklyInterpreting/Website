@@ -4,6 +4,10 @@ import './index.css';
 import './styles/aws-theme.css'; // Add AWS theme styles
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from 'react-ga4';
+
+// Initialize Google Analytics
+ReactGA.initialize('G-ML19NJHRYB');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
